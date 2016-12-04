@@ -1,11 +1,8 @@
 package interview;
 
-import designpatterns.interceptinFilter.InterceptingFilterDemo;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
 /**
  * Created by kasun on 12/3/16.
