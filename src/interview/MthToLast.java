@@ -12,16 +12,13 @@ public class MthToLast {
 
     public static void main(String[] args) {
 
-
         Scanner scanner = new Scanner(System.in);
         int value = Integer.valueOf(scanner.nextInt());
 
-        Scanner newScanner = new Scanner(System.in);
-
         List<BigInteger> numbers = new ArrayList<>();
 
-        while (newScanner.hasNextInt()) {
-            numbers.add(BigInteger.valueOf(newScanner.nextInt()));
+        while (scanner.hasNextInt()) {
+            numbers.add(BigInteger.valueOf(scanner.nextInt()));
         }
 
         if (numbers.size() < value) {
