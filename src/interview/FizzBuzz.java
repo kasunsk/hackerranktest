@@ -1,6 +1,5 @@
 package interview;
 
-import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
@@ -14,7 +13,6 @@ public class FizzBuzz {
         int input = Integer.parseInt(scanner.next());
 
         for (int value = 1; value <= input; value++) {
-
             System.out.println(isFizzBuzz(value));
         }
     }
@@ -23,7 +21,7 @@ public class FizzBuzz {
 
         if (value % 3 == 0 && value % 5 == 0)
             return "FizzBuzz";
-        else if (value %3 == 0) {
+        else if (value % 3 == 0) {
             return "Fizz";
         } else if (value % 5 == 0) {
             return "Buzz";
